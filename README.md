@@ -23,10 +23,10 @@ This is a frontend-only **Spotify Clone** built using **HTML**, **CSS**, and **J
 ## 📸 Screenshots
 
 ### 🎶 Liked Playlist View
-![Liked Playlist](./assets/likedplaylist.png)
+![Liked Playlist](https://github.com/PunitSharma04/Spotify-Clone/blob/main/assets/likedplaylist.png?raw=true)
 
 ### 📂 Playlist Page
-![Playlist](./assets/playlist.png)
+![Playlist](https://github.com/PunitSharma04/Spotify-Clone/blob/main/assets/playlist.png?raw=true)
 
 ---
 
