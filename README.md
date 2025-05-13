@@ -16,6 +16,8 @@ This is a frontend-only Spotify Clone built using **HTML**, **CSS**, and **JavaS
 - JavaScript (DOM Manipulation, Audio API)
 
 ## 📸 Screenshots
-*Add some screenshots here to showcase the UI.*
+![Home Page](./assets/likedplaylist.png)
+![Home Page](./assets/playlist.png)
+
 
 ## 📁 Folder Structure
