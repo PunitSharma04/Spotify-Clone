@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="left">
+      <div class="top">
+        <div class="close"><img src="./images/close.svg" alt=""></div>
+        <div class="logo"><img src="images/logo.svg" alt="logo">
+          <h3>Spotify</h3>
+        </div>
+        <div class="home">
+          <ul>
+            <li><img src="./images/home.svg" alt="Home" />Home</li>
+            <li><img src="./images/search.svg" alt="Search" />Search</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="songList">
+          <div class="wrap_icon_add">
+            <div class="icon">
+              <img src="./images/library.svg" alt="library" /><span>Your Library</span>
+            </div>
+            <div class="add">
+              <img src="./images/add.svg" alt="add" />
+            </div>
+          </div>
+          <div class="songs">
+          </div>
+        </div>
+        <div class="footer">
+          <div class="topFooter">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink" id="">
+                <span data-encore-id="type">Legal</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink" id="">
+                <span data-encore-id="type">Safety &amp; Privacy Center</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink" id="">
+                <span data-encore-id="type">Privacy Policy</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink" id="">
+                <span data-encore-id="type">About Ads</span>
+              </a>
+            </div>
+          </div>
+          <div class="bottomFooter">
+            <div class="Accessibility">
+              <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink" id="">
+                <span data-encore-id="type">Accessibility</span>
+              </a>
+            </div>
+            <div>
+              <a class="cookies" draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                rel="noopener">
+                <span data-encore-id="text">Cookies</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="header">
+        <div class="symbol">
+          <ul>
+            <li class="hamburger"><img src="./images/hamburger.svg" alt=""></li>
+            <li><img src="./images/header_prev.svg" alt="previous" /></li>
+            <li><img src="./images/header_after.svg" alt="after" /></li>
+          </ul>
+        </div>
+        <div class="checkIn">
+          <div class="signUp">Sign up</div>
+          <div class="logIn"><button>Log in</button></div>
+        </div>
+      </div>
+      <div class="playlist">
+        <div class="wrap_playlist_show">
+          <h2>Spotify Playlist</h2>
+          <div>Show all</div>
+        </div>
+        <div class="cardContainer">
+          <!-- <audio id="play" src=""></audio> -->
+        </div>
+      </div>
+      <div class="playbar"></div>
+      <!-- <div class="footer">
+        <div class="company">
+          <h3>Company</h3>
+          <a href="https://www.spotify.com/in-en/about-us/contact/">About</a>
+          <a href="https://www.lifeatspotify.com/">Jobs</a>
+          <a href="https://newsroom.spotify.com/">For the Record</a>
+        </div>
+        <div class="communities">
+          <h3>Communities</h3>
+          <a href="https://artists.spotify.com/">For Artists</a>
+          <a href="https://developer.spotify.com/">Developers</a>
+          <a href="https://ads.spotify.com/">Advertising</a>
+          <a href="https://investors.spotify.com/">Investors</a>
+          <a href="https://spotifyforvendors.com/">Vendors</a>
+        </div>
+        <div class="links">
+          <h3>Useful links</h3>
+          <a href="https://support.spotify.com/">Support</a>
+          <a href="https://www.spotify.com/in-en/free/">Free Mobile App</a>
+        </div>
+        <div class="plans">
+          <h3>Spotify Plans</h3>
+          <a href="https://instagram.com/spotify">Instagram</a>
+          <a href="https://twitter.com/spotify">Twitter</a>
+          <a href="https://www.facebook.com/Spotify">Facebook</a>
+        </div>
+        <div class="handles">
+          <ul>
+            <li>
+              <a href=" https://www.instagram.com/spotify/">
+                <img src="./images/insta.svg" alt="instagram" />
+              </a>
+            </li>
+            <li>
+              <a href=" https://www.twitter.com/spotify/">
+                <img src="./images/twitter.svg" alt="twitter" />
+              </a>
+            </li>
+            <li>
+              <a href=" https://www.facebook.com/spotify/">
+                <img src="./images/facebook.svg" alt="facebook" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <hr />
+        <p>© 2025 Spotify AB</p>
+      </div> -->
+      <div class="playmusicbar">
+        <div class="displaySong">
+          <div class="track">
+          </div>
+          <div class="duration"></div>
+        </div>
+        <div class="info">
+          <div class="play_pause">
+            <ul>
+              <li>
+                <img id="shuffle" src="./images/playHolderImages/shuffle.svg" alt="shuffle" />
+              </li>
+              <li>
+                <img id="previous" src="./images/playHolderImages/prevSong.svg" alt="previous" />
+              </li>
+              <li>
+                <img id="playpause" src="./images/playHolderImages/playpause.svg" alt="play/pause" />
+              </li>
+              <li>
+                <img id="next" src="./images/playHolderImages/nextSong.svg" alt="next" />
+              </li>
+              <li>
+                <img id="repeat" src="./images/playHolderImages/repeat.svg" alt="repeat" />
+              </li>
+              <li class="showVolume"><img src="./images/setting.svg" alt="volume Controls"></li>
+            </ul>
+          </div>
+          <div class="seekbar">
+            <div class="progress"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="volume_play">
+          <ul>
+            <li><img src="./images/playHolderImages/view.svg" alt="view" /></li>
+            <li>
+              <img src="./images/playHolderImages/lyrics.svg" alt="lyrics" />
+            </li>
+            <li><img src="./images/playHolderImages/queue.svg" alt="queue" /></li>
+            <li>
+              <img src="./images/playHolderImages/devicePicker.svg" alt="devicePicker" />
+            </li>
+            <li>
+              <img id="volumeButton" src="./images/playHolderImages/volume.svg" alt="volume" /><input type="range" name="" id="" />
+            </li>
+            <li>
+              <img src="./images/playHolderImages/miniPlayer.svg" alt="miniPlayer" />
+            </li>
+          </ul>
+        
+        </div>       
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
